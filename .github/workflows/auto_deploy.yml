@@ -32,4 +32,4 @@ jobs:
         run: npm install --globally surge
       -name: deploying using surge
        run: surge ./ aqsaumer.surge.sh --token $ {{secrets.surge_token_secret}}
-        echo test, and deploy your project.
+        
